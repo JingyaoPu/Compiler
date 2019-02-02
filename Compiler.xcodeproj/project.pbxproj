@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C229D3712205378900984090 /* SubSymbolTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C229D36F2205378900984090 /* SubSymbolTable.cpp */; };
+		C229D3742205397C00984090 /* readSymbols.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C229D3722205397C00984090 /* readSymbols.cpp */; };
+		C229D378220554B900984090 /* HashTheSymbol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C229D376220554B900984090 /* HashTheSymbol.cpp */; };
+		C229D37B22055D7900984090 /* SymbolTbOperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C229D37922055D7900984090 /* SymbolTbOperator.cpp */; };
 		C28C8CB42202BB9B00C9E34B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C28C8CB32202BB9B00C9E34B /* main.cpp */; };
+		C28C8CBF2202C38700C9E34B /* symbolTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C28C8CBD2202C38700C9E34B /* symbolTable.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C229D36F2205378900984090 /* SubSymbolTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubSymbolTable.cpp; sourceTree = "<group>"; };
+		C229D3702205378900984090 /* SubSymbolTable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SubSymbolTable.hpp; sourceTree = "<group>"; };
+		C229D3722205397C00984090 /* readSymbols.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = readSymbols.cpp; sourceTree = "<group>"; };
+		C229D3732205397C00984090 /* readSymbols.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = readSymbols.hpp; sourceTree = "<group>"; };
+		C229D3752205474600984090 /* symbols.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = symbols.txt; sourceTree = "<group>"; };
+		C229D376220554B900984090 /* HashTheSymbol.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HashTheSymbol.cpp; sourceTree = "<group>"; };
+		C229D377220554B900984090 /* HashTheSymbol.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashTheSymbol.hpp; sourceTree = "<group>"; };
+		C229D37922055D7900984090 /* SymbolTbOperator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SymbolTbOperator.cpp; sourceTree = "<group>"; };
+		C229D37A22055D7900984090 /* SymbolTbOperator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SymbolTbOperator.hpp; sourceTree = "<group>"; };
 		C28C8CB02202BB9B00C9E34B /* Compiler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Compiler; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28C8CB32202BB9B00C9E34B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C28C8CBD2202C38700C9E34B /* symbolTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = symbolTable.cpp; sourceTree = "<group>"; };
+		C28C8CBE2202C38700C9E34B /* symbolTable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = symbolTable.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +73,18 @@
 		C28C8CB22202BB9B00C9E34B /* Compiler */ = {
 			isa = PBXGroup;
 			children = (
+				C229D3752205474600984090 /* symbols.txt */,
 				C28C8CB32202BB9B00C9E34B /* main.cpp */,
+				C28C8CBD2202C38700C9E34B /* symbolTable.cpp */,
+				C28C8CBE2202C38700C9E34B /* symbolTable.hpp */,
+				C229D36F2205378900984090 /* SubSymbolTable.cpp */,
+				C229D3702205378900984090 /* SubSymbolTable.hpp */,
+				C229D3722205397C00984090 /* readSymbols.cpp */,
+				C229D3732205397C00984090 /* readSymbols.hpp */,
+				C229D376220554B900984090 /* HashTheSymbol.cpp */,
+				C229D377220554B900984090 /* HashTheSymbol.hpp */,
+				C229D37922055D7900984090 /* SymbolTbOperator.cpp */,
+				C229D37A22055D7900984090 /* SymbolTbOperator.hpp */,
 			);
 			path = Compiler;
 			sourceTree = "<group>";
@@ -118,7 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C229D378220554B900984090 /* HashTheSymbol.cpp in Sources */,
 				C28C8CB42202BB9B00C9E34B /* main.cpp in Sources */,
+				C229D3742205397C00984090 /* readSymbols.cpp in Sources */,
+				C28C8CBF2202C38700C9E34B /* symbolTable.cpp in Sources */,
+				C229D3712205378900984090 /* SubSymbolTable.cpp in Sources */,
+				C229D37B22055D7900984090 /* SymbolTbOperator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
